@@ -19,31 +19,31 @@ En esta practica responderemos las preguntas puestas en el ejercico 1 de la prac
     * Hacer merge de master a Styled
         * No hizo conflicto por la misma razon de hacer merge con Styled y Htmlify 
 6. ¿Qué comando o comandos utilizaste en el paso 25? 
-	* 
+	* Dibujar el diagrama
 		* git log --graph
 7. El merge del paso 26, ¿Podría ser fast forward? ¿Por qué? 
-	*
-		*si, porque no cree un commit nuevo en la rama head que pueda ser un problema para perder ese commit. Si hubiese tenido mas commits en la rama Head me obligaria a hacer un merge no fast forward.
+	* Hacer un merge “no fast-forward” de “title” en “master”
+		* si, porque no cree un commit nuevo en la rama head que pueda ser un problema para perder ese commit. Si hubiese tenido mas commits en la rama Head me obligaria a hacer un merge no fast forward.
 8. ¿Qué comando o comandos utilizaste en el paso 27? 
-	*
+	* Deshacer el merge
 		* git reset HEAD~1
 9. ¿Qué comando o comandos utilizaste en el paso 28? 
-	*	
+	* Descartar los cambios
 		* git restored git-nuestro.md
 10. ¿Qué comando o comandos utilizaste en el paso 29? 
-	*
-		*git branch -D title --> tengo que estar en otra rama con git checkout master
+	* Eliminar la rama “title”
+		* git branch -D title --> tengo que estar en otra rama con git checkout master
 11. ¿Qué comando o comandos utilizaste en el paso 30? 
-	*
+	* Rehacer el merge que hemos deshecho 
 		* git reflog --> para ver el identificador del commit antes de deshacer el merge
 		* git reset 0dbc150
 		* git add git-nuestro --> porque aparecen cambios
 		* git commit --> Para crear un nuevo commit que este sin el titulo y el merge se queda on el titulo
 		* git reset --hard HEAD~1 --> restaura al merge de title y muestra el titulo
 12. ¿Qué comando o comandos usaste en el paso 32? 
-	*
+	* Volver al commit inicial cuando se creó el poema
 		* git log --> para ver el hash del primer commit
 		* git checkout <HASH del commit> 	
 13. ¿Qué comando o comandos usaste en el punto 33?
-	*
+	* Volver al estado final, cuando pusimos título al poema
 		* git checkout Master --> que contiene todas las commits desde el inicio hasta el final dodne se encuentra ella
