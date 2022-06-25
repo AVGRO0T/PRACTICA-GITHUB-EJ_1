@@ -13,6 +13,8 @@ En esta practica responderemos las preguntas puestas en el ejercico 1 de la prac
     * Hacer un merge con "master" 
         * No no ha causado conflictos porque a hacer el merge,git se ha dado cuenta que los unicos cambios del archivo git-nustro, son por simbolos en cada linea. si hubiese algo totalmente diferente podria dar un conflicto.
 4. El merge del paso 19, ¿Causó algún conflicto? ¿Por qué?
+    * hacer un merge de htmlify en styled 
+        * no Ha dado ningun error porque en las lineas que ha cambiado se ha reemplzadado los signos por codigos que pueden ser lo mismo
 5. El merge del paso 21, ¿Causó algún conflicto? ¿Por qué? 
 6. ¿Qué comando o comandos utilizaste en el paso 25? 
 7. El merge del paso 26, ¿Podría ser fast forward? ¿Por qué? 
