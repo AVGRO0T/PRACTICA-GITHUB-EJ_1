@@ -8,7 +8,7 @@ En esta practica responderemos las preguntas puestas en el ejercico 1 de la prac
 2. ¿Qué comando o comandos utilizaste en el paso 12? ¿Por qué? 
 3. El merge del paso 13, ¿Causó algún conflicto? ¿Por qué? 
     * Hacer un merge con "master" 
-        * 
+        * No no ha causado conflictos porque a hacer el merge,git se ha dado cuenta que los unicos cambios del archivo git-nustro, son por simbolos en cada linea. si hubiese algo totalmente diferente podria dar un conflicto.
 4. El merge del paso 19, ¿Causó algún conflicto? ¿Por qué? 
 5. El merge del paso 21, ¿Causó algún conflicto? ¿Por qué? 
 6. ¿Qué comando o comandos utilizaste en el paso 25? 
