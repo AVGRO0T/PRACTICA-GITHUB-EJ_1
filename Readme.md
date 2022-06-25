@@ -15,7 +15,9 @@ En esta practica responderemos las preguntas puestas en el ejercico 1 de la prac
 4. El merge del paso 19, ¿Causó algún conflicto? ¿Por qué?
     * hacer un merge de htmlify en styled 
         * no Ha dado ningun error porque en las lineas que ha cambiado se ha reemplzadado los signos por codigos que pueden ser lo mismo
-5. El merge del paso 21, ¿Causó algún conflicto? ¿Por qué? 
+5. El merge del paso 21, ¿Causó algún conflicto? ¿Por qué?
+    * Hacer merge de master a Styled
+        * No hizo conflicto por la misma razon de hacer merge con Styled y Htmlify 
 6. ¿Qué comando o comandos utilizaste en el paso 25? 
 7. El merge del paso 26, ¿Podría ser fast forward? ¿Por qué? 
 8. ¿Qué comando o comandos utilizaste en el paso 27? 
