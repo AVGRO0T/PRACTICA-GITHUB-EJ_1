@@ -7,6 +7,8 @@ En esta practica responderemos las preguntas puestas en el ejercico 1 de la prac
 
 2. ¿Qué comando o comandos utilizaste en el paso 12? ¿Por qué? 
 3. El merge del paso 13, ¿Causó algún conflicto? ¿Por qué? 
+    * Hacer un merge con "master" 
+        * 
 4. El merge del paso 19, ¿Causó algún conflicto? ¿Por qué? 
 5. El merge del paso 21, ¿Causó algún conflicto? ¿Por qué? 
 6. ¿Qué comando o comandos utilizaste en el paso 25? 
